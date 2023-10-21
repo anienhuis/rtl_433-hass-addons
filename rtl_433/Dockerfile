@@ -18,7 +18,7 @@ RUN git clone https://github.com/anienhuis/rtl_433
 WORKDIR ./rtl_433
 
 # Build a specific commit or tag.
-ARG rtl433GitRevision=main
+ARG rtl433GitRevision=master
 RUN git checkout ${rtl433GitRevision}
 WORKDIR ./build
 RUN cmake ..
