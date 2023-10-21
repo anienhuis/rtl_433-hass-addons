@@ -1,9 +1,9 @@
 {
   "name": "rtl_433",
   "image": "ghcr.io/anienhuis/rtl_433-hass-addons-rtl_433-{arch}",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "slug": "rtl433",
-  "description": "Receive wireless sensor data via an SDR dongle and rtl_433",
+  "description": "AN - Receive wireless sensor data via an SDR dongle and rtl_433",
   "url": "https://github.com/anienhuis/rtl_433-hass-addons/tree/main/rtl_433",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "application",
